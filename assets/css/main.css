@@ -62,12 +62,14 @@
 .ColorHumo{
   background-color: #dcdddf;
 }
-.CuboEjercicio1{
-  /*border: 10px solid white;*/
+.Cuadro{
   padding: 10px;
 }
-.CuboEjercicio1 div{
+.Altura{
   height: 180px;
+}
+.AlturaDoble{
+  height: 360px;
 }
 .Next,
 .Previous {
@@ -79,7 +81,11 @@
 .Next{
   float: right;
 }
-.Next:hover{
+.Previous{
+  float: left;
+}
+.Next:hover,
+.Previous:hover{
   color: #ff00fb;
   font-weight: bold;
 }
